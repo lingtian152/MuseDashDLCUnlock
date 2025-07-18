@@ -8,19 +8,19 @@
 
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>.\0Harmony.dll</HintPath>
+      <HintPath>.\Resouces\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Il2Cppcom.rlabrecque.steamworks.net">
-      <HintPath>.\Il2Cppcom.rlabrecque.steamworks.net.dll.</HintPath>
+      <HintPath>.\Resouces\Il2Cppcom.rlabrecque.steamworks.net.dll.</HintPath>
     </Reference>
     <Reference Include="Il2CppInterop.Runtime">
-      <HintPath>.\Il2CppInterop.Runtime.dll</HintPath>
+      <HintPath>.\Resouces\Il2CppInterop.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Il2Cppmscorlib">
-      <HintPath>.\Il2Cppmscorlib.dll</HintPath>
+      <HintPath>.\Resouces\Il2Cppmscorlib.dll</HintPath>
     </Reference>
     <Reference Include="MelonLoader">
-      <HintPath>.\MelonLoader.dll</HintPath>
+      <HintPath>.\Resouces\MelonLoader.dll</HintPath>
     </Reference>
   </ItemGroup>
 
