@@ -1,29 +1,15 @@
 ﻿using MelonLoader;
 using HarmonyLib;
 using Il2CppSteamworks;
-using Il2Cpp;
 using MuseDashDLCUnlock;
+using MuseDash;
+
 
 [assembly: MelonInfo(typeof(DLCUnlock), "Muse Dash DLC Unlock moddified", "1.1.0", "hoshisuzu")]
 [assembly: MelonGame("PeroPeroGames", "MuseDash")]
 
 namespace MuseDashDLCUnlock
 {
-    // 模拟 SteamManager 类
-    namespace MuseDash
-    {
-        public class SteamManager
-        {
-            public bool m_DoSomething1;
-            public bool m_DoSomething3;
-
-            public void DLCVerify()
-            {
-                // 空实现，仅用于 Harmony Patch
-            }
-        }
-    }
-
     [HarmonyPatch(typeof(SteamApps), nameof(SteamApps.BIsDlcInstalled))]
     public class DLCPatch
     {
